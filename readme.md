@@ -1,7 +1,9 @@
 # Docker testing
-Vasicek cap priced on Docker. 
-Packages are not installed on the local machine and the code runs at least once and
-asks the user for some input parameters to compute the calculations.
+1) Vasicek cap priced on Docker.
+2) FastAPI test
+
+Packages are not installed on the local machine but nevertheless the code runs
+on Docker.
 
 ### Docker general tips...
 - When asking for user input remember to include -i, -t --> docker run -i -t <image_name> so 
